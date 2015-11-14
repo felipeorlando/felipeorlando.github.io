@@ -21,7 +21,7 @@ author:
   info:
 
 url: http://steinvc.github.io
-baseurl: "/holo-alfa"
+# baseurl: "/"
 
 # language attribute in <html> element.
 lang: en
@@ -43,10 +43,10 @@ footer-text: This is the footer.<br><a href="http://steinvc.github.io/holo-alfa/
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00f0ff"
+theme-color-attr: "#00F0FF"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00f0ff"
+ms-tile-color: "#00F0FF"
 
 # Color used throughout the theme. Format: R, G, B.
 theme-color: 0, 240, 255 # Original: 0, 240, 255
