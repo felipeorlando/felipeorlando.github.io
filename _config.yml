@@ -1,30 +1,31 @@
 
 # The name of your website.
-name: Holo Alfa
+name: Felipe Orlando
 
 description:
 
-  # Description of your site. This will show up in google.
-  meta: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content.
+  # Description of my site. This will show up in google.
+  meta: Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Now, say my name!
 
   # Description of your site. This will show up on the front page.
-  subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
+  subtitle: "Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Se sua busca é por conhecimento, veio ao lugar certo. Acho. :)"
+  # subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
-  name: Dr. Jekyll # Change this!
+  name: Felipe Orlando
 
   # Necessary for contact page
-  email: your@email.com # Change this!
+  email: bee.sql@gmail.com
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
   info:
 
-url: http://steinvc.github.io
+# url: http://steinvc.github.io
 # baseurl: "/"
 
 # language attribute in <html> element.
-lang: en
+lang: pt-BR
 
 # FROM THIS POINT ON EVERYTHING IS OPTIONAL
 
@@ -65,7 +66,7 @@ display-author-post-page: true
 display-author-front-page: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
-date_format: "%b %-d, %Y"
+date_format: "%d/%m/%Y"
 
 # Minimal screen-width after which the navigation will change position from
 # vertical to horizontal.
@@ -89,15 +90,15 @@ disqus-shortname:
 # has been considered, but this is way more customizable.
 twitter:
 youtube:
-instagram:
+instagram: http://instagram.com/fbeegle
 tumblr:
-facebook:
+facebook: http://fb.com/fbeegle
 google-plus:
 reddit:
 soundcloud:
 medium:
-linkedin:
-github:
+linkedin: http://lnkdin.me/felipe
+github: http://github.com/fbeegle
 behance:
 codepen:
 dribbble:
@@ -114,17 +115,17 @@ paypal:
 # Useful for translating into other languages.
 
 var_on_the_web: On the web
-var_read: Read # Text after each post summary on the homepage.
-var_newer: Newer
-var_older: Older
-var_next_post: Next post
-var_previous_post: Previous post
-var_less_than_a_minute_read: Less than a minute read
-var_min_read: min read # Text after reading time. Example: 5 min read.
-var_post_by: Post by
-var_guest_post_by: Guest post by
-var_your_email: Your email
-var_your_message: Your message
+var_read: Ler # Text after each post summary on the homepage.
+var_newer: Novos
+var_older: Antigos
+var_next_post: Próxima postagem
+var_previous_post: Postagem anterior
+var_less_than_a_minute_read: Menos de um minuto de leitura
+var_min_read: min de leitura # Text after reading time. Example: 5 min read.
+var_post_by: Postado por
+var_guest_post_by: Postado por
+var_your_email: Seu email
+var_your_message: Sua mensagem
 
 
 ##################
