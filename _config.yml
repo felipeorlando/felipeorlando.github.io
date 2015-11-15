@@ -36,7 +36,7 @@ lang: pt-BR
 # If you want to show the subtitle anywhere else than the front page, use
 # {% include subtitle.html %} to include it anywhere you want.
 show-subtitle: true
-display-social-icons: false
+display-social-icons: true
 
 footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href="http://steinvc.github.io/holo-alfa/">Holo Alfa</a> desenvolvido por <a href="http://steinvc.github.io/holo-alfa/">Stijn</a>.
 
@@ -126,6 +126,7 @@ var_post_by: Postado por
 var_guest_post_by: Postado por
 var_your_email: Seu email
 var_your_message: Sua mensagem
+var_send_message: Enviar
 
 
 ##################
