@@ -44,13 +44,13 @@ footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#00F0FF"
+theme-color-attr: "#66FF33"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#00F0FF"
+ms-tile-color: "#66FF33"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 0, 240, 255 # Original: 0, 240, 255
+theme-color: 102, 255, 51 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 0, 0, 0 # Original: 0, 0, 0
