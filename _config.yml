@@ -8,7 +8,7 @@ description:
   meta: Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Now, say my name!
 
   # Description of your site. This will show up on the front page.
-  subtitle: "Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Se sua busca é por conhecimento, veio ao lugar certo. Acho. :)"
+  subtitle: "Olá! Meu nome é Felipe Orlando, desenvolvedor web (e futuro mobile tbm), e este é meu blog. Se sua busca é por conhecimento, tamo junto. :)"
   # subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
@@ -19,7 +19,7 @@ author:
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
-  info: "Desenvolvedor Ruby (fws. Rails, Sinatra), PHP (fws. Laravel, Zend) e Javascript (Node.js, Angular.js e jQuery). Back-ender por diversão, front-end por obrigação e designer por natureza."
+  info: "Viciado em indentar HTML desde os 10 anos de idade, o que não faz muito tempo. Brinco bastante hoje em dia com JS, Ruby, e PHP"
 
 # url: http://steinvc.github.io
 # baseurl: "/"
@@ -88,9 +88,9 @@ disqus-shortname: fbeegle
 
 # Use a complete url here, including http:// and such. Requiring just usernames
 # has been considered, but this is way more customizable.
-twitter:
+twitter: http://twitter.com/felipeorlnd
 youtube:
-instagram: http://instagram.com/fbeegle
+instagram: http://instagram.com/felipeorlnd
 tumblr:
 facebook:
 google-plus:
@@ -98,7 +98,7 @@ reddit:
 soundcloud:
 medium:
 linkedin: http://lnkdin.me/felipe
-github: http://github.com/fbeegle
+github: http://github.com/felipeorlando
 behance:
 codepen:
 dribbble:
