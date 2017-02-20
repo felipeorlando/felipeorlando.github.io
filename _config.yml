@@ -8,7 +8,7 @@ description:
   meta: Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Now, say my name!
 
   # Description of your site. This will show up on the front page.
-  subtitle: "Olá! Meu nome é Felipe Orlando, desenvolvedor web (e futuro mobile tbm), e este é meu blog. Se sua busca é por conhecimento, tamo junto. :)"
+  subtitle: "Olá! Meu nome é Felipe Orlando, desenvolvedor web, e este é meu blog. Se sua busca é por conhecimento, tamo junto. :)"
   # subtitle: Holo Alfa is a minimalist, mobile first Jekyll theme with focus on readability and content. <a href="https://github.com/steinvc/holo-alfa">&lt;/&gt; on Github</a>.
 
 author:
@@ -21,7 +21,7 @@ author:
   # want it.
   info: "Viciado em indentar HTML desde os 10 anos de idade, o que não faz muito tempo. Brinco bastante hoje em dia com JS, Ruby, e PHP"
 
-# url: http://steinvc.github.io
+url: http://felipeorlando.github.io
 # baseurl: "/"
 
 # language attribute in <html> element.
@@ -44,13 +44,13 @@ footer-text: Aprenda e compartilhe conhecimento sem moderação.<br>Tema <a href
 logo-image: # /img/logo.png
 
 # Toolbar color for Chrome on Android.
-theme-color-attr: "#66FF33"
+theme-color-attr: "#0000FF"
 
 # Color of Microsoft live Tile.
-ms-tile-color: "#66FF33"
+ms-tile-color: "#0000FF"
 
 # Color used throughout the theme. Format: R, G, B.
-theme-color: 102, 255, 51 # Original: 0, 240, 255
+theme-color: 226, 226, 226 # Original: 0, 240, 255
 
 # Text color used throughout the theme. Format: R, G, B.
 text-color: 0, 0, 0 # Original: 0, 0, 0

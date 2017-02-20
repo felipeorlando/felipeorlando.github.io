@@ -270,7 +270,7 @@ header::after {
   font-size: 60px;
   display: block;
   text-align: center;
-  color: rgba({{ site.theme-color }}, 0.4);
+  color: rgba({{ site.theme-color }}, 1);
 }
 article:last-of-type::after {
   content: "";
