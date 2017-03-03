@@ -3,11 +3,11 @@ layout: page
 title: Sobre
 ---
 
-Felipe Orlando, 20, São José dos Campos - SP, prazer. :)
+Felipe Orlando, 21, São José dos Campos - SP, prazer. :)
 
-Desenvolvo desde meus 10 anos de idade, sequer sabia que isso poderia ser uma profissão. Comecei PHP e JS, aprendi bastante lógica com Python e depois veio o Ruby, o que mudou tudo. rs
+Desenvolvo desde meus 10 anos de idade, sequer sabia que isso poderia ser uma profissão. Comecei PHP e JS, aprendi bastante lógica com Python e depois veio o Ruby, o que mudou tudo, me dando conceitos do workflow de desenvolvimento que conhecemos hoje em dia e utilizamos em diversa outras tecnologias. rs
 
-Hoje em dia, meu stack é Ruby (RB, Rails, Sinatra), PHP (Laravel) e JS (Vanilla, jQuery e React) e cada dia que passa me apaixono mais e mais por TDD, desenvolvimento mobile e os mil e um frameworks Javascript. <3
+Hoje em dia, meu stack é Ruby, Elixir e JS (front-end and backend), com várias pitadas de clean-code, TDD, refatoração e CI. <3
 
 ---
 
