@@ -2,7 +2,7 @@
 title: has_secure_token para criar chaves únicas - Rails 5
 ---
 
-Finalmente temos uma solução nativa do Rails para gerar chaves randômicas, sem precisar instalar dependências ou criar strings randômicas. A solução está no `has_secure_token`.
+Finalmente temos uma solução nativa do Rails para gerar chaves seguras, sem precisar instalar dependências ou criar strings randômicas. A solução está no `has_secure_token`.
 
 <!--more-->
 
