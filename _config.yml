@@ -79,7 +79,7 @@ paginate: 3
 display-next-prev-post: false
 
 # Leave empty if you don't want comments on post pages.
-disqus-shortname: fbeegle
+disqus-shortname: felipeorlnd
 
 
 ################
