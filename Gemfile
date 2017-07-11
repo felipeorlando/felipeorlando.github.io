@@ -1,6 +1,10 @@
 source 'http://rubygems.org'
 
-gem 'pygments.rb', '~> 0.6.3'
+gem 'jekyll', '~> 3.3', '>= 3.3.1'
 gem 'github-pages'
-gem 'html-proofer'
-gem 'jekyll-admin', group: :jekyll_plugins
+
+group :jekyll_plugins do
+  gem 'pygments.rb'
+  gem 'jekyll-paginate'
+  gem 'jekyll-admin'
+end
