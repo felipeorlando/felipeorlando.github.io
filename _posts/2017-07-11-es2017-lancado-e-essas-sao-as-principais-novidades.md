@@ -22,13 +22,13 @@ Pra não se contenta com o básico, é possível ler a <a href="http://www.ecma-
 ⚠️  Lembrando que, se tratando de suporte aos atuais navegadores, precisamos ficar de olho com relação a compatibilidade. Para isso, indico o <a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Browser_support_for_JavaScript_APIs" target="_blank">MDN</a>.
 
 ### Sumário
-1. [String padding](#)
-1. [Object.values](#)
-1. [Object.entries](#) 
-1. [Object.getOwnPropertyDescriptors](#)
-1. [Vírgulas restantes em funções ignoradas](#)
-1. [Async functions](#)
-1. [Shared memory and atomics](#)
+1. [String padding](#string-padding)
+1. [Object.values](#objectvalues)
+1. [Object.entries](#objectentries) 
+1. [Object.getOwnPropertyDescriptors](#objectgetownpropertydescriptors)
+1. [Vírgulas restantes ignoradas em funções](#vírgulas-restantes-ignoradas-em-funções)
+1. [Async functions](#async-functions)
+1. [Memória compartilhada e Atomic](#memória-compartilhada-e-atomic)
 
 ___
 
@@ -100,11 +100,57 @@ Object.entries('es8'); // [['0', 'e'], ['1', 's'], ['2', '8']]
 ### Object.getOwnPropertyDescriptors
 Lorem ipsum dolor sit amet.
 
-### Vírgulas restantes em funções ignoradas
-Lorem ipsum dolor sit amet.
+### Vírgulas restantes ignoradas em funções
+Esta nem é uma novidade tão mirabolante, mas é útil. Agora não teremos `SyntaxError` quando adicionarmos vírgulas excedentes na separação de argumentos em funções.
+
+{% highlight javascript %}
+function orlando(arg1, arg2, arg3,) {
+  // ...
+}
+
+orlando('a', 'b', 'c',);
+{% endhighlight %}
+
+Talvez a maior utilidade quando usamos spread operator como último argumento e vamos passar vários argumentos quando formos invocar a função, utilizando múltiplas linhas.
 
 ### Async functions
-Lorem ipsum dolor sit amet.
+Com certeza a funcionalidade mais usada do ES8 desde já, utilizando transpiladores. Talvez seja por ser a maneira mais fácil de se trabalhar com a assincronia do Javascript. 
+
+Para quem ainda não sabe como funciona, essa funcionalidade nos dá duas palavras chaves para se utilizar nas funções: `async` e `await`. 
+
+Adicionado o modificador `async` antes de declarar uma função, a transforma em uma função assíncrona, fazendo com que qualquer processo interno dessa função seja assíncrono.
+
+Já o modificador `await` é utilizado em funções que ficam dentro do escopo de funções assíncronas (somente), fazendo que o fluxo  da função assíncrona seja interrompido, esperando pela promisse da função interna. Sacou? 🤔
+
+Temos a seguinte função:
+
+{% highlight javascript %}
+async function falar(tempo, numero) {
+  function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+  await timeout(tempo); 
+  // 👆 o fluxo seguinte aguarda o retorno do timeout(),
+  // só depois é executado o código abaixo:
+  console.log(numero);
+}
+{% endhighlight %}
+
+Utilizando a função acima, podemos criar outra e executá-la:
+
+{% highlight javascript %}
+async function contador() {
+  await falar(3000, 1);
+  await falar(2000, 2);
+  await falar(1000, 3);
+}
+
+contador() // imprime na sequência: 1 2 3
+{% endhighlight %}
+
+Se a função acima fosse assíncrona e não utilizasse o `await`, teríamos como retorno `3 2 1`.
+
+Para entender melhor, leia <a href="https://braziljs.org/blog/async-await-js-assincronamente-sincrono/" target="_blank">esse artigo</a> no blog da BrazilJS.
 
 ### Memória compartilhada e Atomic
 Lorem ipsum dolor sit amet.
