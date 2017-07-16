@@ -1,5 +1,5 @@
 ---
-title: ES2017 é lançado e essas são as principais novidades!
+title: EcmaScript 8 é lançado e essas são as principais novidades!
 layout: post
 excerpt_separator: "<!--more-->"
 ---
@@ -8,10 +8,7 @@ Depois do update pequeno que tivemos em 2016 com o EcmaScript 7, finalmente temo
 
 <!--more-->
 
-<div align="center">
-	<blockquote class="twitter-tweet" data-lang="pt"><p lang="en" dir="ltr">ES2017 (the 8th edition of the JavaScript Spec) was officially released and published yesterday! <a href="https://t.co/1ITn5bzaqj">https://t.co/1ITn5bzaqj</a> 👏</p>&mdash; Kent C. Dodds (@kentcdodds) <a href="https://twitter.com/kentcdodds/status/880121426824630273">28 de junho de 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-</div>
+![ES8]({{ site.url }}/img/es8.jpg)
 
 Anunciada no final de julho de 2017 pela TC39, a nova atualização conta com novidades significativas na linguagem, sendo uma delas as Async Functions.
 
@@ -28,7 +25,6 @@ Pra não se contenta com o básico, é possível ler a <a href="http://www.ecma-
 1. [Object.getOwnPropertyDescriptors](#objectgetownpropertydescriptors)
 1. [Vírgulas restantes ignoradas em funções](#vírgulas-restantes-ignoradas-em-funções)
 1. [Async functions](#async-functions)
-1. [Memória compartilhada e Atomic](#memória-compartilhada-e-atomic)
 
 ___
 
@@ -98,7 +94,37 @@ Object.entries('es8'); // [['0', 'e'], ['1', 's'], ['2', '8']]
 {% endhighlight %}
 
 ### Object.getOwnPropertyDescriptors
-Lorem ipsum dolor sit amet.
+Com o método `getOwnPropertyDescriptors`, é possível obter informações de propriedades de objetos.
+
+{% highlight javascript %}
+Object.getOwnPropertyDescriptors(objeto)
+{% endhighlight %}
+
+O `objeto` é passado como parâmetro para a função, retornando até 5 informações: `configurable`, `enumerable`, `writable`, `get`, `set` e `value`.
+
+{% highlight javascript %}
+const objeto = { 
+  get es7() { return 777; },
+  get es8() { return 888; }
+};
+
+Object.getOwnPropertyDescriptors(obj);
+
+// {
+//   es7: {
+//     configurable: true,
+//     enumerable: true,
+//     get: function es7(){}, //the getter function
+//     set: undefined
+//   },
+//   es8: {
+//     configurable: true,
+//     enumerable: true,
+//     get: function es8(){}, //the getter function
+//     set: undefined
+//   }
+// }
+{% endhighlight %}
 
 ### Vírgulas restantes ignoradas em funções
 Esta nem é uma novidade tão mirabolante, mas é útil. Agora não teremos `SyntaxError` quando adicionarmos vírgulas excedentes na separação de argumentos em funções.
@@ -150,11 +176,8 @@ contador() // imprime na sequência: 1 2 3
 
 Se a função acima fosse assíncrona e não utilizasse o `await`, teríamos como retorno `3 2 1`.
 
-Para entender melhor, leia <a href="https://braziljs.org/blog/async-await-js-assincronamente-sincrono/" target="_blank">esse artigo</a> no blog da BrazilJS.
-
-### Memória compartilhada e Atomic
-Lorem ipsum dolor sit amet.
+Para entender melhor, leia <a href="https://braziljs.org/blog/async-await-js-assincronamente-sincrono/" target="_blank">esse artigo</a> no blog da BrazilJS. 💛
 
 ___
 
-Fonte: <a href="https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66" target="_blank">Dor Moshe - Hackernoon</a>
+Fonte: <a href="https://hackernoon.com/es8-was-released-and-here-are-its-main-new-features-ee9c394adf66" target="_blank">Dor Moshe - Hackernoon</a> ❤️
