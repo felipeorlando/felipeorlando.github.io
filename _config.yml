@@ -21,8 +21,7 @@ author:
   # want it.
   info: "Viciado em indentar HTML desde os 10 anos de idade, o que não faz muito tempo. Brinco bastante hoje em dia com Ruby, Elixir e Javascript"
 
-# url: http://felipeorlando.github.io
-url: http://localhost:4000
+url: http://felipeorlando.github.io
 # baseurl: "/"
 
 # language attribute in <html> element.
