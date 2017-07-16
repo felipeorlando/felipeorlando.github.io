@@ -21,7 +21,8 @@ author:
   # want it.
   info: "Viciado em indentar HTML desde os 10 anos de idade, o que não faz muito tempo. Brinco bastante hoje em dia com Ruby, Elixir e Javascript"
 
-url: http://felipeorlando.github.io
+# url: http://felipeorlando.github.io
+url: http://localhost:4000
 # baseurl: "/"
 
 # language attribute in <html> element.
@@ -62,8 +63,9 @@ text-color: 0, 0, 0 # Original: 0, 0, 0
 #       http://www.colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0+0,1+100
 background-color: 255, 255, 255 # Original: 255, 255, 255
 
-display-author-post-page: true
-display-author-front-page: true
+display-author-post-page: false
+display-author-front-page: false
+display-post-description-on-home: true
 
 # http://alanwsmith.com/jekyll-liquid-date-formatting-examples
 date_format: "%d/%m/%Y"
