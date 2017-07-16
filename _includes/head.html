@@ -7,7 +7,7 @@
 {{ site.name }}
 {% endif %}
 </title>
-<meta name="description" content="{{ page.summary }} {{ site.description.meta }}">
+<meta name="description" content="{{ page.description }} {{ site.description.meta }}">
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
 
 <!-- icons -->
@@ -36,8 +36,8 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
 <meta property="og:description" content="
-{% if page.summary %}
-{{ page.summary }}
+{% if page.description %}
+{{ page.description }}
 {% else %}
 {{ site.description.meta }}
 {% endif %}">

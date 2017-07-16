@@ -1,7 +1,7 @@
 ---
 title: EcmaScript 8 é lançado e essas são as principais novidades!
-layout: post
-excerpt_separator: "<!--more-->"
+og-image: {{site.url}}/img/es8.jpg
+description: Depois do update pequeno que tivemos em 2016 com o EcmaScript 7, finalmente temos oficializadas grandes novidades que ouviamos por aí!
 ---
 
 Depois do update pequeno que tivemos em 2016 com o EcmaScript 7, finalmente temos oficializadas **grandes** novidades que ouviamos por aí! 🎉
@@ -21,7 +21,7 @@ Pra não se contenta com o básico, é possível ler a <a href="http://www.ecma-
 ### Sumário
 1. [String padding](#string-padding)
 1. [Object.values](#objectvalues)
-1. [Object.entries](#objectentries) 
+1. [Object.entries](#objectentries)
 1. [Object.getOwnPropertyDescriptors](#objectgetownpropertydescriptors)
 1. [Vírgulas restantes ignoradas em funções](#vírgulas-restantes-ignoradas-em-funções)
 1. [Async functions](#async-functions)
@@ -29,7 +29,7 @@ Pra não se contenta com o básico, é possível ler a <a href="http://www.ecma-
 ___
 
 ### String Padding
-Há dois novos métodos que manipulam string: `padStart()` e `padEnd()`. Os métodos recebem um número inteiro como argumento e verificam se a string tem aquele tamanho. 
+Há dois novos métodos que manipulam string: `padStart()` e `padEnd()`. Os métodos recebem um número inteiro como argumento e verificam se a string tem aquele tamanho.
 
 Veja como são declarados os métodos com seus parâmetros:
 
@@ -103,7 +103,7 @@ Object.getOwnPropertyDescriptors(objeto)
 O `objeto` é passado como parâmetro para a função, retornando até 5 informações: `configurable`, `enumerable`, `writable`, `get`, `set` e `value`.
 
 {% highlight javascript %}
-const objeto = { 
+const objeto = {
   get es7() { return 777; },
   get es8() { return 888; }
 };
@@ -140,9 +140,9 @@ orlando('a', 'b', 'c',);
 Talvez a maior utilidade quando usamos spread operator como último argumento e vamos passar vários argumentos quando formos invocar a função, utilizando múltiplas linhas.
 
 ### Async functions
-Com certeza a funcionalidade mais usada do ES8 desde já, utilizando transpiladores. Talvez seja por ser a maneira mais fácil de se trabalhar com a assincronia do Javascript. 
+Com certeza a funcionalidade mais usada do ES8 desde já, utilizando transpiladores. Talvez seja por ser a maneira mais fácil de se trabalhar com a assincronia do Javascript.
 
-Para quem ainda não sabe como funciona, essa funcionalidade nos dá duas palavras chaves para se utilizar nas funções: `async` e `await`. 
+Para quem ainda não sabe como funciona, essa funcionalidade nos dá duas palavras chaves para se utilizar nas funções: `async` e `await`.
 
 Adicionado o modificador `async` antes de declarar uma função, a transforma em uma função assíncrona, fazendo com que qualquer processo interno dessa função seja assíncrono.
 
@@ -155,7 +155,7 @@ async function falar(tempo, numero) {
   function timeout(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
   }
-  await timeout(tempo); 
+  await timeout(tempo);
   // 👆 o fluxo seguinte aguarda o retorno do timeout(),
   // só depois é executado o código abaixo:
   console.log(numero);
