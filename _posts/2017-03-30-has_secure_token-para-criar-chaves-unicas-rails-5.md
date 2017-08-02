@@ -8,6 +8,8 @@ Finalmente temos uma solução nativa do Rails para gerar chaves seguras, sem pr
 
 <!--more-->
 
+![Rails has secure token]({{ site.url }}/img/lock-keys.jpg)
+
 Foi [adicionado o método has_secure_token](https://github.com/rails/rails/pull/18217) no Active Record que permite gerar um token facilmente numa coluna padrão ou específica (quando informada), diretamente no model.
 
 {% highlight ruby %}
