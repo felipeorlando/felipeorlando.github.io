@@ -1,7 +1,7 @@
 ---
 title: EcmaScript 8 é lançado e essas são as principais novidades!
-og-image: es8.jpg
 description: Depois do update pequeno que tivemos em 2016 com o EcmaScript 7, finalmente temos oficializadas grandes novidades que ouviamos por aí!
+og-image: es8.jpg
 ---
 
 Depois do update pequeno que tivemos em 2016 com o EcmaScript 7, finalmente temos oficializadas **grandes** novidades que ouviamos por aí! 🎉

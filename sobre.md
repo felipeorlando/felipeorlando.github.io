@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Sobre
+description: Saiba mais sobre o menino viciado em indentar HTML desde os 10 anos de idade.
 ---
 
-Felipe Orlando, 21, São José dos Campos - SP, prazer. :)
+Felipe Orlando, 21, São José dos Campos - SP. 🤘
 
-Desenvolvo desde meus 10 anos de idade, sequer sabia que isso poderia ser uma profissão. Comecei PHP e JS, aprendi bastante lógica com Python e depois veio o Ruby, o que mudou tudo, me dando conceitos do workflow de desenvolvimento que conhecemos hoje em dia e utilizamos em diversa outras tecnologias. rs
+Viciado em indentar HTML desde os 10 anos de idade, o que não faz muito tempo. Nessa época, sequer sabia que isso poderia ser uma profissão. Comecei com PHP e JS, aprendi bastante lógica com Python e depois veio o Ruby, o que mudou tudo, me dando conceitos do workflow de desenvolvimento que conhecemos hoje em dia e utilizamos em diversa outras tecnologias.
 
-Hoje em dia, meu stack é Ruby, Elixir e JS (front-end and backend), com várias pitadas de clean-code, TDD, refatoração e CI. <3
+Hoje em dia, meu stack é bem variado (Ruby, JS, Python, Elixir), com várias pitadas de clean-code, TDD, refatoração e CI. 💙
 
 ---
 

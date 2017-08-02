@@ -2,12 +2,16 @@
 <meta name="viewport" content="width=device-width">
 <title>
 {% if page.title %}
-{{ page.title }} • {{ site.name }}
+  {{ page.title }} • {{ site.name }}
 {% else %}
-{{ site.name }}
+  {{ site.name }}
 {% endif %}
 </title>
-<meta name="description" content="{{ page.description }} {{ site.description.meta }}">
+{% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+{% else %}
+  <meta name="description" content="{{ site.description.meta }}">
+{% endif %}
 <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="{{ site.baseurl }}/feed.xml">
 
 <!-- icons -->
@@ -35,11 +39,10 @@
 {% endif %}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
-<meta property="og:description" content="
 {% if page.description %}
-{{ page.description }}
+  <meta property="og:description" content="{{ page.description }}">
 {% else %}
-{{ site.description.meta }}
+  <meta property="og:description" content="{{ site.description.meta }}">
 {% endif %}">
 <!-- /og tags -->
 
