@@ -19,6 +19,9 @@ Uso várias tecnologias no meu dia-a-dia, as principais e mais recentes são:
 - Node, Express
 - GraphQL, Apollo
 - React, Redux, um pouquinho de React Native
+- Vue.js, Vuex
+- Jest, Mocha, Cypress
+- Postgres, MySQL
 
 ---
 
