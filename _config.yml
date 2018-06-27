@@ -15,7 +15,7 @@ author:
   name: Felipe Orlando
 
   # Necessary for contact page
-  email: bee.sql@gmail.com
+  email: fobsouza@gmail.com
 
   # Optional text (html) to display after author name. Leave empty if you don't
   # want it.
@@ -125,6 +125,7 @@ var_less_than_a_minute_read: Menos de um minuto de leitura
 var_min_read: min de leitura # Text after reading time. Example: 5 min read.
 var_post_by: Postado por
 var_guest_post_by: Postado por
+var_your_name: Seu nome
 var_your_email: Seu email
 var_your_message: Sua mensagem
 var_send_message: Enviar
